@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1EIL3uwptBNE_1aQGAKnsaW1gxDpzW-cY
 """
 
-from serpapi import GoogleSearch
+#from serpapi import GoogleSearch
 import openai
 import wikipediaapi
 import serpapi
@@ -16,11 +16,10 @@ import gtts
 import onnx
 import onnxruntime
 import huggingface_hub
-import streamlit
 import amadeus
 import faiss
 
-import streamlit as st
+import streamlit
 from travel_story import generate_travel_story, generate_voiceover, create_travel_video, generate_travel_plan, generate_travel_images, extract_daywise_highlights
 from utils import fetch_weather, fetch_tourist_attractions, fetch_flight_details, fetch_restaurants, fetch_hotels
 from config import llm  # Ensure llm is imported for LLM calls

@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1KOSnvRZmVieK-NUTAKmNFl4-oehB-waC
 """
 
-import os
+import streamlit as st
 from amadeus import Client
 import os
 from langchain_openai.chat_models import ChatOpenAI
