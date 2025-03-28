@@ -7,7 +7,7 @@ sentence-transformers
 onnx
 onnxruntime
 numpy
-pillow
+pillow==8.4.0
 moviepy==1.0.3
 gtts
 requests
@@ -26,4 +26,4 @@ serpapi
 langchain
 langchain-community
 faiss-cpu
-
+torch==1.13.1
