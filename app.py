@@ -28,12 +28,6 @@ from PIL import Image
 from io import BytesIO
 from moviepy.editor import AudioFileClip
 
-# Add to the TOP of app.py
-import streamlit as st
-st.experimental_singleton.clear()
-st.experimental_memo.clear()
-st.session_state.clear()
-
 # Set up Streamlit Page
 st.set_page_config(page_title="✈️ AI Travel Planner", layout="wide")
 
