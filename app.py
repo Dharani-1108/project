@@ -19,7 +19,7 @@ import huggingface_hub
 import amadeus
 import faiss
 
-import streamlit
+import streamlit as st
 from travel_story import generate_travel_story, generate_voiceover, create_travel_video, generate_travel_plan, generate_travel_images, extract_daywise_highlights
 from utils import fetch_weather, fetch_tourist_attractions, fetch_flight_details, fetch_restaurants, fetch_hotels
 from config import llm  # Ensure llm is imported for LLM calls
